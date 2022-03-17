@@ -1,0 +1,41 @@
+:root {
+  --primary-color: blue;
+  --primary-font-color: white;
+  --secondary-color: hotpink;
+  --default-color: grey;
+  --accent-color: rgb(53, 184, 170);
+  --ghost-color: transparent;
+  --ghost-font-color: black;
+  --link-color: blue;
+}
+
+html,
+body {
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  background-color: #f0e7ebfc;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #3b3c45;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 2px 2px 14px rgb(255, 255, 255);
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+button {
+  margin: 4px;
+}
